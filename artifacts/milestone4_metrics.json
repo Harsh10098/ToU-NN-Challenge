@@ -1,0 +1,63 @@
+{
+  "class_to_idx": {
+    "buildings": 0,
+    "forest": 1,
+    "glacier": 2,
+    "mountain": 3,
+    "sea": 4,
+    "street": 5
+  },
+  "test_loss": 0.7457818388938904,
+  "test_accuracy": 0.7243333458900452,
+  "classification_report": {
+    "buildings": {
+      "precision": 0.6557377049180327,
+      "recall": 0.8237986270022883,
+      "f1-score": 0.7302231237322515,
+      "support": 437.0
+    },
+    "forest": {
+      "precision": 0.9821428571428571,
+      "recall": 0.8122362869198312,
+      "f1-score": 0.8891454965357968,
+      "support": 474.0
+    },
+    "glacier": {
+      "precision": 0.5817073170731707,
+      "recall": 0.8625678119349005,
+      "f1-score": 0.6948288419519301,
+      "support": 553.0
+    },
+    "mountain": {
+      "precision": 0.759009009009009,
+      "recall": 0.6419047619047619,
+      "f1-score": 0.695562435500516,
+      "support": 525.0
+    },
+    "sea": {
+      "precision": 0.927038626609442,
+      "recall": 0.4235294117647059,
+      "f1-score": 0.5814266487213997,
+      "support": 510.0
+    },
+    "street": {
+      "precision": 0.708185053380783,
+      "recall": 0.7944111776447106,
+      "f1-score": 0.748824082784572,
+      "support": 501.0
+    },
+    "accuracy": 0.7243333333333334,
+    "macro avg": {
+      "precision": 0.7689700946888824,
+      "recall": 0.7264080128618663,
+      "f1-score": 0.7233351048710777,
+      "support": 3000.0
+    },
+    "weighted avg": {
+      "precision": 0.7666157929068917,
+      "recall": 0.7243333333333334,
+      "f1-score": 0.7205538516630448,
+      "support": 3000.0
+    }
+  }
+}
